@@ -1,0 +1,21 @@
+# Python / VENV
+venv/
+*.pyc
+__pycache__/
+.env
+
+# Node.js / React
+frontend/node_modules/
+frontend/build/
+.DS_Store
+npm-debug.log
+
+# Downloaded Datasets (CRITICAL)
+backend/Flickr8k_Dataset.zip
+backend/Flickr8k_text.zip
+backend/flickr8k_images/
+backend/flickr8k_text/
+
+# Trained Model Output (Optional)
+# You can delete the line below if you want to upload your trained model
+backend/my-fine-tuned-model/
